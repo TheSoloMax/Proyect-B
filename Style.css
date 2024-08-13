@@ -1,0 +1,348 @@
+.frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .solomax-huskies {
+    text-decoration: none;
+    position: absolute;
+    top: 64px;
+    left: 320px;
+    font-weight: 800;
+    color: inherit;
+    z-index: 3;
+  }
+  .heart-with-dog-paw {
+    position: absolute;
+    top: 50px;
+    left: 244px;
+    width: 84px;
+    height: 63px;
+    object-fit: cover;
+    z-index: 4;
+  }
+  .vector-parent {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-darkgoldenrod-100);
+    width: 735px;
+    font-size: var(--font-size-5xl);
+    color: #fff;
+  }
+  .donaciones,
+  .inicio,
+  .registrate,
+  .sugerencias {
+    text-decoration: none;
+    position: absolute;
+    top: 67px;
+    left: 1361px;
+    font-weight: 700;
+    color: inherit;
+    display: inline-block;
+    min-width: 102px;
+    z-index: 3;
+    cursor: pointer;
+  }
+  .donaciones,
+  .inicio,
+  .sugerencias {
+    left: 1523px;
+    min-width: 121px;
+    cursor: pointer;
+  }
+  .donaciones,
+  .inicio {
+    left: 1193px;
+    min-width: 116px;
+    cursor: pointer;
+  }
+  .inicio {
+    left: 1094px;
+    min-width: 53px;
+    cursor: pointer;
+  }
+  .navigation-buttons-child {
+    height: 71px;
+    width: 306px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-darkgoldenrod-100);
+    display: none;
+  }
+  .comenzar-a-leer {
+    width: 235px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--color-gray);
+    text-align: left;
+    flex-shrink: 0;
+    z-index: 6;
+  }
+  .navigation-buttons,
+  .navigation-buttons-item {
+    width: 306px;
+    border-radius: var(--br-3xs);
+    box-sizing: border-box;
+  }
+  .navigation-buttons {
+    cursor: pointer;
+    border: 0;
+    padding: 24px 4px 23px;
+    background-color: var(--color-darkgoldenrod-100);
+    position: absolute;
+    right: 466px;
+    bottom: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .navigation-buttons:hover {
+    background-color: var(--color-darkgoldenrod-200);
+  }
+  .navigation-buttons-item {
+    height: 71px;
+    position: relative;
+    border: 4px solid var(--color-darkgoldenrod-100);
+    display: none;
+  }
+  .leer-sobre-otro {
+    width: 256px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--color-darkgoldenrod-100);
+    text-align: left;
+    flex-shrink: 0;
+    z-index: 6;
+  }
+  .navigation-buttons1 {
+    cursor: pointer;
+    border: 4px solid var(--color-darkgoldenrod-100);
+    padding: 19px 13px 18px 29px;
+    background-color: transparent;
+    position: absolute;
+    right: 141px;
+    bottom: 220px;
+    border-radius: var(--br-3xs);
+    box-sizing: border-box;
+    width: 306px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 5;
+  }
+  .navigation-buttons1:hover {
+    background-color: rgba(173, 117, 0, 0.09);
+    border: 4px solid var(--color-darkgoldenrod-200);
+    box-sizing: border-box;
+  }
+  .facebook,
+  .somomax-huskies {
+    position: absolute;
+    font-size: var(--font-size-base);
+    z-index: 5;
+  }
+  .facebook {
+    right: 506px;
+    bottom: 118px;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 77px;
+  }
+  .somomax-huskies {
+    right: 257px;
+    bottom: 117px;
+    font-weight: 300;
+  }
+  .nuestras-redes-sociales {
+    position: absolute;
+    right: 536px;
+    bottom: 155px;
+    font-weight: 500;
+    z-index: 5;
+  }
+  .sorprendentes-datos-curiosos {
+    margin: 0;
+    position: absolute;
+    top: 148.8px;
+    right: -49px;
+    font-size: 94px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    width: 832px;
+    height: 456px;
+    z-index: 6;
+  }
+  .este-sitio-esta {
+    position: absolute;
+    right: 19.6px;
+    bottom: 332px;
+    display: inline-block;
+    width: 748.9px;
+    height: 76.8px;
+    z-index: 5;
+  }
+  .frame-group {
+    position: absolute;
+    height: calc(100% - 1px);
+    top: 1px;
+    bottom: 0;
+    left: 0;
+    width: 1644px;
+  }
+  .header-bar-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .para-su-informacion {
+    position: absolute;
+    top: 120px;
+    left: 875.5px;
+    font-weight: 600;
+    display: inline-block;
+    width: 255.8px;
+    height: 30.9px;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .header-bar {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 1920px;
+    height: 167px;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-gainsboro);
+    font-family: var(--font-inter);
+  }
+  .pattern-2-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .instagram {
+    position: absolute;
+    top: 1302px;
+    left: 1530px;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 80px;
+    z-index: 5;
+  }
+  .facebook-icon,
+  .instagram-circle-icon {
+    position: absolute;
+    top: 1293px;
+    left: 1635px;
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    z-index: 5;
+  }
+  .instagram-circle-icon {
+    left: 1487px;
+  }
+  .background {
+    position: absolute;
+    top: -359px;
+    left: -617px;
+    width: 1687.6px;
+    height: 1766px;
+    z-index: 1;
+    font-size: var(--font-size-base);
+  }
+  .gradient-icon {
+    position: absolute;
+    top: -89px;
+    left: -9px;
+    width: 2198px;
+    height: 1259px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .image-icon,
+  .pattern-1-icon {
+    position: absolute;
+    top: -155px;
+    left: 592px;
+    width: 1655.6px;
+    height: 1490.4px;
+    object-fit: contain;
+    z-index: 4;
+  }
+  .image-icon {
+    top: 184px;
+    left: -58px;
+    width: 803.8px;
+    height: 1059.5px;
+    z-index: 5;
+  }
+  .frame-parent {
+    height: 1080px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .desktop {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-gray);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-gainsboro);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 750px) {
+    .sorprendentes-datos-curiosos {
+      font-size: 47px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .solomax-huskies {
+      font-size: 19px;
+    }
+    .donaciones,
+    .inicio,
+    .leer-sobre-otro,
+    .nuestras-redes-sociales,
+    .registrate,
+    .sugerencias {
+      font-size: var(--font-size-base);
+    }
+    .sorprendentes-datos-curiosos {
+      font-size: 28px;
+    }
+    .este-sitio-esta {
+      font-size: var(--font-size-base);
+    }
